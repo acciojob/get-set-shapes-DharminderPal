@@ -1,5 +1,3 @@
-//complete this code
-
 class Rectangle {
 
 constructor(width, height ){
@@ -18,26 +16,15 @@ getArea(){
     return this.width*this.height ;
 }
 
-set width(width) {
-    this._width = width;
-  }
-
-
-  set height(height) {
-    this._height = height;
-  }
 }
 class Square extends Rectangle{
-    constructor(side) {
-    super(side, side); 
-  }
-//     getPerimeter(Square){
-// return (2*length+width);
-//     }
-    getPerimeter() {
-    return 4 * this.width; 
-  }
+
+    getPerimeter(Square){
+return 2*(length+width);
+    }
+ 
 }
+
 
 // Do not change the code below this line
 window.Rectangle = Rectangle;
